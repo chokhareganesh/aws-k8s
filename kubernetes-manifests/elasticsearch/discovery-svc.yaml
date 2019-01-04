@@ -10,6 +10,7 @@ spec:
   selector:
     app: elasticsearch
     role: master
+  type: NodePort
   ports:
   - name: transport
     port: 9300
